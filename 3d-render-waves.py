@@ -191,6 +191,3 @@ a = anim()
 GUI().start_event_loop()
 mlab.show()
 
-# After the animation completes, create a video using 
-# ffmpeg -r 30 -f image2 -s 1600x1512 -i frames/frame_%04d.png -vf "transpose=2" -vcodec libx264 -crf 5  -pix_fmt yuv420p output.mp4
-
